@@ -1,4 +1,4 @@
-# hostAPkIpaAdmin
+# Host APK IPA using Command Line
 cli (admin) application for uploading apk ipa to  "hostAPkIpa" client project
 
 ### run  command `node upload.js pageID apk_ipa_file_path`
