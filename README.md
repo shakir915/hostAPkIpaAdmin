@@ -1,6 +1,7 @@
 # Host APK IPA using Command Line
-cli (admin) application for uploading apk ipa to  "hostAPkIpa" https://github.com/shakir915/hostApkIpa client project
-using firebase admin (storage, real time db)
+#### cli (admin) application for uploading apk ipa to  "hostAPkIpa" https://github.com/shakir915/hostApkIpa client project
+#### using firebase admin (storage, real time db)
+#### you may require to host client app in firebase host : https://github.com/shakir915/hostApkIpa
 
 
 
