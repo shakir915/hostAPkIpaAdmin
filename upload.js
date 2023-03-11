@@ -161,12 +161,13 @@ function parseIOS(result) {
   setDataKeyValue("icon", result.icon)
   var pd = 0
   try {
-    pd = g_result["mobileProvision"]["ProvisionedDevices"].length
+    pd = result["mobileProvision"]["ProvisionedDevices"].length
   } catch (error) {
     console.log(error)
   }
   console.log("ProvisionedDevices " + pd)
   setDataKeyValue("ProvisionedDevices", pd)
+
   if (pd <= 0) process.exit()
 }
 
@@ -257,7 +258,6 @@ function setDataKeyValue(k, v) {
     data[k] = v
   }
 }
-
 
 
 
